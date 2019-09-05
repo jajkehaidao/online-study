@@ -1,0 +1,32 @@
+<view class="container">
+  <view class="incontext">昨天 16:51</view>
+  <view class="dialog-box">
+    <view class="photo1">
+      <image class="trademark" src="../../imgs/trademark.jpg"></image>
+
+    </view>
+    <view class="dialog">
+      <view class="dialogitem">你好，欢迎关注mathwinner!</view>
+    </view>
+  </view>
+  <view class="photo2 photo3" bindtap="switchTab">
+    <image style="opacity:{{opacity}}" class="ps" src="https://182888459606-1300073223.cos.ap-chengdu.myqcloud.com/wx_imgs/ap001.png" bindtap="jump" data-map="0"></image>
+    <view class="text">TL-Nspire图形计算器使用教程——基本操作教学</view>
+    <view class="text1" style="opacity:{{opacity}}" bindtap="jump">
+      <view class="text2">TL-Nspire图形计算器使用教程-图形计算器在AP微积分中的应用</view>
+    </view>
+  </view>
+  <view class="photo2 photo3" bindtap="switchTab">
+    <image style="opacity:{{opacity}}" class="ps" src="https://182888459606-1300073223.cos.ap-chengdu.myqcloud.com/wx_imgs/ap001.png" bindtap="jump" data-map="1"></image>
+    <view class="text">《AP微积分教程》视频教学——6.5截面固体体积</view>
+    <view class="text1" style="opacity:{{opacity}}" bindtap="jump">
+      <view class="text2">《AP微积分教程》动画演示——5.1节黎曼（Riemann Sum）</view>
+    </view>
+    <view class="text1" style="opacity:{{opacity}}" bindtap="jump">
+      <view class="text2">《AP微积分教程》动画演示——6.4节旋转体的体积圆盘法（Disk...）</view>
+    </view>
+    <view class="text1" style="opacity:{{opacity}}" bindtap="jump">
+      <view class="text2">《AP微积分教程》动画演示——6.5节已知截面固体体积（Volume...）</view>
+    </view>
+  </view>
+</view>

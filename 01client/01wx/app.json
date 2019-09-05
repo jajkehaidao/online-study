@@ -1,16 +1,56 @@
 {
   "pages": [
-        "pages/annimation1/annimation1",
-    "pages/annimation3/annimation3",
-   "pages/annimation2/annimation2",
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  },
-  "sitemapLocation": "sitemap.json"
-}
+    "pages/page1/page1",
+      "pages/page01/page01",
+    "pages/page02/page02",
+    
+    
+      
+      "pages/page03/page03",
+      "pages/page04/page04"
+    ],
+    "permission": {
+      "scope.userLocation": {
+        "desc": "你的位置信息将用于小程序位置接口的效果展示"
+      }
+    },
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#fff",
+      "navigationBarTitleText": "WeChat",
+      "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+      "color": "#999",
+      "selectedColor": "#2066FF",
+      "borderStyle": "white",
+      "backgroundColor": "#ffffff",
+      "list": [
+        {
+          "pagePath": "pages/page01/page01",
+          "iconPath": "imgs/home.png",
+          "selectedIconPath": "imgs/home_active.png",
+          "text": "留学课堂"
+        },
+        {
+          "pagePath": "pages/page02/page02",
+          "iconPath": "imgs/user.png",
+          "selectedIconPath": "imgs/user_active.png",
+          "text": "TL图形计算器"
+        },
+        {
+          "pagePath": "pages/page03/page03",
+          "iconPath": "imgs/video.png",
+          "selectedIconPath": "imgs/video_active.png",
+          "text": "AP微积分视频"
+        },
+        {
+          "pagePath": "pages/page04/page04",
+          "iconPath": "imgs/progress.png",
+          "selectedIconPath": "imgs/progress_active.png",
+          "text": "动画演示"
+        }
+      ]
+    },
+    "sitemapLocation": "sitemap.json"
+  }
