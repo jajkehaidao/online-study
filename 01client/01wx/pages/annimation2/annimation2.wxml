@@ -1,0 +1,46 @@
+<view class="box">
+  <view class="box1"></view>
+  <view class="box2">
+    <scroll-view style='width:100%; height: 100%; ' scroll-y="true">
+      <view class="box2-1">
+        <view class="box2-1-1">《AP微积分满分教程》动画演示———6.4节 旋转体的体积圆盘法 (Disk Method)</view>
+        <view class="box2-1-2">
+          <view class="box2-1-2-1">孙宗义</view>
+          <view class="box2-1-2-2" bindtap="redirectTo">留学数学满分课堂</view>
+          <view class="box2-1-2-1">5天前</view>
+        </view>
+        <view class="box2-1-3">《AP微积分满分教程》配套动画演示</view>
+        <view class="box2-1-4">6.4节 旋转体的体积 (Volume of Revolution)——圆盘法 (Disk Method 动画演示</view>
+      </view>
+      <view class="box2-2">
+        <view class="box2-2-1">
+          <image class="img" src="https://weixin00-1300073012.cos.ap-chengdu.myqcloud.com/weixinimg/a1.gif"></image>
+        </view>
+        <view class="box2-2-1">
+          <image class="img" src="https://weixin00-1300073012.cos.ap-chengdu.myqcloud.com/weixinimg/a2.jpeg"></image>
+        </view>
+      </view>
+      <view class="box2-3">
+        <image class="img" src="https://weixin00-1300073012.cos.ap-chengdu.myqcloud.com/weixinimg/3.jpg"></image>
+      </view>
+      <view class="box2-4">
+        <image class="img" src="https://weixin00-1300073012.cos.ap-chengdu.myqcloud.com/weixinimg/4.jpg"></image>
+      </view>
+
+        <view class="box2-5">
+        <view class="box2-5-1">
+        <view class="box2-5-1-1">关 注 作 者 微 信 公 众 号 ： 留 学 数 学 满 分 课 堂</view>
+        <view class="box2-5-1-1">（mathwinner）获取更多AP/SAT/Alevel... 数学干货</view>
+        </view>
+        <view class="box2-5-2">
+        <view class="box2-5-2-left"><image class="img" src="https://weixin00-1300073012.cos.ap-chengdu.myqcloud.com/weixinimg/5.jpg"></image></view>
+        <view class="box2-5-2-right"><image class="img" src="https://weixin00-1300073012.cos.ap-chengdu.myqcloud.com/weixinimg/6.jpg"></image></view>
+        </view>
+        <view class="box2-5-3">新浪微博：数学孙宗义</view>
+        <view class="box2-5-4">阅读   18</view>
+        
+        </view>
+    </scroll-view>
+  </view>
+
+</view>
