@@ -1,7 +1,7 @@
 <!--pages/page1/page1.wxml-->
 <view class="content">
    <view class="title">
-       <navigator class="quxiao" url="../index/index?title=navigate" open-type="navigateTo">
+       <navigator class="quxiao" url="../page01/page01?title=switchTab" open-type="switchTab">
             <image class="quxiaoimg" src="https://img-1300073303.cos.ap-chengdu.myqcloud.com/wx00/quxiao.png"></image>
        </navigator>
        <view class="titlefont">留学数学满分课堂</view>
@@ -12,7 +12,7 @@
    
    <view class="box3">
       <view class="box3-left">孙宗义</view>
-      <navigator class="box3-center" url="../index/index?title=navigate" open-type="navigateTo">
+      <navigator class="box3-center" url="../page01/page01?title=switchTab" open-type="switchTab">
       <view class="box3-center-cnt">留学数学课堂满分</view>
       </navigator>
       <view class="box3-right">6天前</view>

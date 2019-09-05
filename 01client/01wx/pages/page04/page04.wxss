@@ -1,1 +1,61 @@
-/* pages/page04/page04.wxss */
+.dialog-box {
+  display: flex;
+  flex-direction: row;
+ 
+  width: 740rpx;
+}
+.dialog{
+  background: #FFFFFF;
+  height: 80rpx;
+  margin-left: 40rpx;
+  border-radius: 5rpx;
+  width: 550rpx;
+}
+
+.dialogitem{
+  line-height: 80rpx;
+  text-align: center;
+  font-weight: 600;
+  font-size: 35rpx;
+}
+
+.ps {
+  height: 300rpx;
+  width: 730rpx;
+  
+ 
+}
+
+.text1 {
+  width: 730rpx;
+  background: #FFFFFF;
+  margin-top: 20rpx;
+  color: skyblue;
+  font-weight: bold;
+  font-size: 32rpx;
+  height: 300rpx;
+}
+.text{
+  margin-top: -75rpx;
+  font-size: 35rpx;
+  color: black;
+  font-weight: bold;
+}
+.trademark{
+  width: 80rpx;
+  height: 80rpx;
+}
+.photo3{
+  margin-top:100rpx;
+
+
+}
+.text2{
+ line-height: 50rpx;
+  padding-top:  50rpx;
+ 
+}
+.incontext{
+  font-size: 32rpx;
+  color: #ccc;
+}

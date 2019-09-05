@@ -6,7 +6,7 @@
         <view class="box2-1-1">《AP微积分满分教程》动画演示———6.4节 旋转体的体积圆盘法 (Disk Method)</view>
         <view class="box2-1-2">
           <view class="box2-1-2-1">孙宗义</view>
-          <view class="box2-1-2-2" bindtap="redirectTo">留学数学满分课堂</view>
+          <view class="box2-1-2-2" bindtap="switchTab">留学数学满分课堂</view>
           <view class="box2-1-2-1">5天前</view>
         </view>
         <view class="box2-1-3">《AP微积分满分教程》配套动画演示</view>

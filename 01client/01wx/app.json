@@ -1,13 +1,17 @@
 {
   "pages": [
+    "pages/page01/page01",
+    "pages/annimation1/annimation1",
+    
     "pages/page1/page1",
-      "pages/page01/page01",
+    "pages/page2/page2",
+    "pages/page3/page3",
     "pages/page02/page02",
-    
-    
-      
       "pages/page03/page03",
-      "pages/page04/page04"
+      "pages/page04/page04",
+
+      "pages/annimation2/annimation2",
+      "pages/annimation3/annimation3"
     ],
     "permission": {
       "scope.userLocation": {
@@ -33,13 +37,13 @@
           "text": "留学课堂"
         },
         {
-          "pagePath": "pages/page02/page02",
+          "pagePath": "pages/page1/page1",
           "iconPath": "imgs/user.png",
           "selectedIconPath": "imgs/user_active.png",
           "text": "TL图形计算器"
         },
         {
-          "pagePath": "pages/page03/page03",
+          "pagePath": "pages/page3/page3",
           "iconPath": "imgs/video.png",
           "selectedIconPath": "imgs/video_active.png",
           "text": "AP微积分视频"

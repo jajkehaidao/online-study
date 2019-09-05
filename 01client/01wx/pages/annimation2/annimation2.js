@@ -9,9 +9,9 @@ Page({
   onLoad: function (options) {
 
   },
-  redirectTo: function () {
-    wx.redirectTo({
-      url: '../annimation3/annimation3',
+  switchTab: function () {
+    wx.switchTab({
+      url: '../page01/page01',
     })
     console.log(125);
 

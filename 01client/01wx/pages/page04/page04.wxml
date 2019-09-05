@@ -1,2 +1,14 @@
-<!--pages/page04/page04.wxml-->
-<text>pages/page04/page04.wxml</text>
+<view class="container"> <view class="photo2 photo3">
+  
+    <view class="text">《AP微积分教程》视频教学——6.5截面固体体积</view>
+    <view class="text1" style="opacity:{{opacity}}" >
+      <view class="text2" bindtap="navigateTo1" data-map="0">《AP微积分教程》动画演示——5.1节黎曼（Riemann Sum）</view>
+    </view>
+    <view class="text1" style="opacity:{{opacity}}" >
+      <view class="text2" bindtap="navigateTo2" data-map="1">《AP微积分教程》动画演示——6.4节旋转体的体积圆盘法（Disk...）</view>
+    </view>
+    <view class="text1" style="opacity:{{opacity}}" >
+      <view class="text2" bindtap="navigateTo3" data-map="2">《AP微积分教程》动画演示——6.5节已知截面固体体积（Volume...）</view>
+    </view>
+  </view>
+</view>

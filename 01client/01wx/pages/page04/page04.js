@@ -1,66 +1,30 @@
-// pages/page04/page04.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
+    opacity: 1
 
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
   onLoad: function (options) {
 
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
 
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  navigateTo1: function (e) {
+    wx.navigateTo({
+      url: '../annimation1/annimation1',
+    })
+   console.log(e.target.dataset.map)
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  navigateTo2: function (e) {
+    wx.navigateTo({
+      url: '../annimation2/annimation2',
+    })
+    console.log(e.target.dataset.map)
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  navigateTo3: function (e) {
+    wx.navigateTo({
+      url: '../annimation3/annimation3',
+    })
+    console.log(e.target.dataset.map)
   }
+  
 })
