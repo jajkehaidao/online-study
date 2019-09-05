@@ -1,0 +1,155 @@
+/* pages/page1/page1.wxss */
+.content {
+  width: 750rpx;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.quxiao {
+  width: 6%;
+  height: 60%;
+  margin-left: 15rpx;
+}
+.quxiaoimg {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20rpx;
+}
+.titlefont {
+  margin-left: 15rpx;
+  font-size: 36rpx;
+ color: black;
+ font-family: 黑体;
+}
+.title {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 0.5px solid #D9DADC; 
+  display: flex;
+  align-items: center;
+}
+.box2 {
+  width: 80%;
+  
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  font-size: 42rpx;
+  font-family: 微软雅黑；
+}
+
+.box3 {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 32rpx;
+  margin-top: 35rpx;
+  margin-left: 30rpx;
+}
+.box3-left {
+  color: #8C8D8F;
+}
+.box3-center {
+  color: #274766;
+}
+
+.box3-right {
+  color: #8C8D8F;
+}
+
+.box4 {
+  width: 90%;
+  margin-top: 65rpx;
+  margin-left: 30rpx;
+}
+.box4-top {
+  width: 100%;
+   color: #FB3803;
+   font-size: 36rpx;
+   font-weight: 700;
+}
+.box4-bottom {
+  width: 100%;
+   color: black;
+   font-size: 36rpx;
+   font-weight: 700;
+   margin-top: 25rpx;
+}
+
+.box5 {
+  width: 90%;
+  height: 450rpx;
+  margin-left: 3%;
+  margin-top: 35rpx;
+}
+.box5-vidio {
+  width: 100%;
+  height: 100%;
+}
+
+.box6 {
+  width: 90%;
+  height: 620rpx;
+  margin-left: 3%;
+  margin-top: 35rpx;
+}
+.box6-img {
+  width: 100%;
+  height: 100%;
+}
+
+.box7 {
+  width: 90%;
+  height: 800rpx;
+  margin-left: 3%;
+  margin-top: 20rpx;
+}
+.box7-img {
+  width: 100%;
+  height: 100%;
+}
+
+.box8 {
+  color: red;
+  font-weight: 700;
+  margin-top: 20rpx;
+  padding-left: 20px;
+  font-size: 36rpx;
+}
+
+.box9 {
+  width: 60%;
+  height: 600rpx;
+  margin-left: 30px;
+  margin-top: 50rpx;
+}
+.box9-img {
+  width: 100%;
+  height: 100%;
+}
+
+.box10 {
+  width: 35%;
+  height: 250rpx;
+  margin-left: 30px;
+  margin-top: 20rpx;
+}
+.box10-img {
+  width: 100%;
+  height: 100%;
+}
+
+.box11 {
+  margin-top: 20rpx;
+  color: #737170;
+  font-weight: 600;
+  margin-left: 30rpx;
+  font-size: 34rpx;
+}
+.box12 {
+  margin-top: 40rpx;
+  color: #737170;
+  font-size: 30rpx;
+   margin-left: 30rpx;
+   margin-bottom: 20rpx;
+}

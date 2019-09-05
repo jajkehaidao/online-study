@@ -1,0 +1,50 @@
+<!--pages/page1/page1.wxml-->
+<view class="content">
+   <view class="title">
+       <navigator class="quxiao" url="../index/index?title=navigate" open-type="navigateTo">
+            <image class="quxiaoimg" src="https://img-1300073303.cos.ap-chengdu.myqcloud.com/wx00/quxiao.png"></image>
+       </navigator>
+       <view class="titlefont">留学数学满分课堂</view>
+    </view>
+
+  <scroll-view style='width:100%;' scroll-y="true">
+   <view class="box2">TI-Nspire图形计算器使用教程——基本操作教学</view>
+   
+   <view class="box3">
+      <view class="box3-left">孙宗义</view>
+      <navigator class="box3-center" url="../index/index?title=navigate" open-type="navigateTo">
+      <view class="box3-center-cnt">留学数学课堂满分</view>
+      </navigator>
+      <view class="box3-right">6天前</view>
+   </view>
+
+   <view class="box4">
+     <view class="box4-top">《AP微积分满分教程》配套视频教程</view>
+     <view class="box4-bottom">TI-Nspire 图形计算器使用教程--基本操作教学</view>
+   </view>
+
+   <view class="box5">
+    <video class="box5-vidio" src="https://img-1300073303.cos.ap-chengdu.myqcloud.com/wx00/vidio.mp4"></video>
+   </view>
+
+
+   <view class="box6">
+      <image class="box6-img" src='https://img-1300073303.cos.ap-chengdu.myqcloud.com/wx00/box6.jpg' bindtap="previewImage" data-map="0"></image>
+   </view>
+   <view class="box7">
+      <image class="box7-img" src='https://img-1300073303.cos.ap-chengdu.myqcloud.com/wx00/box7.jpg' bindtap="previewImage" data-map="1"></image>
+   </view>
+
+   <view class="box8">关注作者微信公众号：留学数学满分课堂(mathwinner)获取更多AP/SAT/Alevel...数学干货</view>
+   
+   <view class="box9"><image class="box9-img" src="https://img-1300073303.cos.ap-chengdu.myqcloud.com/wx00/box9.jpg" bindtap="previewImage" data-map="2"></image> </view>
+   <view class="box10"><image class="box10-img" src="https://img-1300073303.cos.ap-chengdu.myqcloud.com/wx00/box10.jpg" bindtap="previewImage" data-map="3"></image> </view>
+
+   <view class="box11">新浪微博：数学孙宗义</view>
+
+   <view class="box12">阅读 31</view>
+
+
+</scroll-view>
+
+</view>
